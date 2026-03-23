@@ -1,11 +1,11 @@
 # Monthly SEO Keyword Strategy Review (getathenic.com)
 
-**Review date:** 2026-03-19  
+**Review date:** 2026-03-23  
 **Primary goal:** identify keyword opportunities to grow *qualified organic traffic* and improve click-through-rate (CTR) on high-impression pages.
 
 ## Data sources used (this review)
 
-1. **Google Search Console** (last 28 days: **2026-02-19 → 2026-03-18**, vs previous 28 days: **2026-01-22 → 2026-02-18**)
+1. **Google Search Console** (last 28 days: **2026-02-23 → 2026-03-22**, vs previous 28 days: **2026-01-26 → 2026-02-22**)
 2. **Google Ads Keyword Planner**: attempted again, but the API integration is still failing due to an invalid configured Google Ads Customer ID.
 
 **Keyword Planner error (actionable fix):**
@@ -14,46 +14,55 @@
 
 ---
 
-## Executive summary (what changed vs last review)
+## Executive summary (what changed vs last 28-day period)
 
-### 1) Visibility step-change: “comparison” content is now earning large impression volume
-Across the last 28 days, multiple comparison pages moved into a pattern of:
-- **Avg position ~6–7** (top 10)
-- **Tens of thousands of impressions**
-- **Very low CTR** (often **< 0.07%**) → the site is *being shown*, but searchers aren’t choosing the snippet.
+### 1) New #1 opportunity by raw impressions: “best ecommerce platform” comparison page is now massive
+The page `/blog/best-ecommerce-platform-comparison-2026` is now one of the highest-impression URLs on the site **while already ranking on page 1**.
+- **0 clicks / 29,719 impressions / 0.00% CTR / avg position 4.88**
 
-This is the highest-leverage SEO work for the next 30 days.
+This is a pure CTR + snippet-intent match problem.
 
-### 2) New cluster with real click volume: Linear vs Plane vs Height
-The page `/blog/linear-vs-height-vs-plane-project-management` is now a top click driver.
-- **28 clicks / 2,172 impressions / 1.29% CTR / avg position 6.30**
+### 2) Breakout click winner: Postman vs Insomnia vs Bruno
+This page is now the top click driver.
+- **47 clicks / 4,625 impressions / 1.02% CTR / avg position 7.04**
 
-This is a strong signal to expand into adjacent “project management tool comparison” head-to-heads.
+Expand this cluster with single-head-to-head pages that match the exact “X vs Y” demand.
 
-### 3) New high-impression / zero-click opportunity: HubSpot vs ActiveCampaign (AI features)
-The page `/blog/hubspot-activecampaign-ai-agents-comparison` has meaningful visibility but no traffic yet.
-- **0 clicks / 2,820 impressions / 0.00% CTR / avg position 8.58**
+### 3) Continued pattern: comparison pages rank ~5–7 with huge impressions but near-zero CTR
+The same pattern continues across:
+- Claude vs GPT-4o vs Gemini
+- Vercel vs Railway vs Render
+- Stripe vs Paddle vs Lemon Squeezy
 
-This is almost certainly a title/meta + intent-match issue.
+These are already in the top 10. CTR is the bottleneck.
+
+### 4) Marketing automation (AI features) demand is real, but the snippet is not winning clicks
+`/blog/hubspot-activecampaign-ai-agents-comparison` is earning meaningful visibility, dominated by queries like **“activecampaign vs hubspot ai features comparison (2026)”**, but still **0 clicks**.
+- **0 clicks / 3,537 impressions / 0.00% CTR / avg position 8.63**
 
 ---
 
-## Biggest immediate upside: CTR improvement on pages already ranking in positions ~5–8
+## Biggest immediate upside: CTR improvement on pages already ranking in positions ~4–8
 
 **Top CTR-upside pages (last 28 days):**
 
 | Page | Clicks | Impressions | CTR | Avg position |
 |---|---:|---:|---:|---:|
-| /blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison | 6 | 31,192 | 0.019% | 6.01 |
-| /blog/vercel-vs-railway-vs-render-ai-deployment | 12 | 23,395 | 0.051% | 6.49 |
-| /blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing | 9 | 16,534 | 0.054% | 6.27 |
-| /blog/pinecone-vs-weaviate-vs-qdrant-vs-pgvector | 6 | 10,431 | 0.058% | 6.85 |
-| /blog/supabase-vs-firebase-vs-convex-ai-backend | 5 | 7,869 | 0.064% | 7.16 |
-| /blog/hubspot-activecampaign-ai-agents-comparison | 0 | 2,820 | 0.000% | 8.58 |
+| /blog/best-ecommerce-platform-comparison-2026 | 0 | 29,719 | 0.000% | 4.88 |
+| /blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison | 9 | 34,302 | 0.026% | 6.05 |
+| /blog/vercel-vs-railway-vs-render-ai-deployment | 15 | 26,714 | 0.056% | 6.59 |
+| /blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing | 13 | 18,794 | 0.069% | 6.26 |
+| /blog/langchain-vs-llamaindex-vs-haystack-rag-frameworks | 2 | 10,936 | 0.018% | 6.80 |
+| /blog/anthropic-claude-vs-openai-gpt4-vs-google-gemini | 2 | 10,212 | 0.020% | 6.51 |
+| /blog/best-ai-for-business-comparison-2026 | 2 | 10,331 | 0.019% | 7.09 |
+| /blog/pinecone-vs-weaviate-vs-qdrant-vs-pgvector | 8 | 12,265 | 0.065% | 6.90 |
+| /blog/human-in-the-loop-approval-workflows | 0 | 4,203 | 0.000% | 7.94 |
+| /blog/hubspot-activecampaign-ai-agents-comparison | 0 | 3,537 | 0.000% | 8.63 |
 
 **What this means in clicks (illustrative):**
-- If `/blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison` moves from **0.019% → 0.20% CTR**, that’s roughly **+56 clicks / 28 days** at current impressions.
-- If `/blog/vercel-vs-railway-vs-render-ai-deployment` moves from **0.051% → 0.20% CTR**, that’s roughly **+35 clicks / 28 days**.
+- If `/blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison` moves from **0.026% → 0.20% CTR**, that’s roughly **+60 clicks / 28 days** at current impressions.
+- If `/blog/vercel-vs-railway-vs-render-ai-deployment` moves from **0.056% → 0.20% CTR**, that’s roughly **+38 clicks / 28 days**.
+- If `/blog/best-ecommerce-platform-comparison-2026` reaches **0.10% CTR**, that’s roughly **+30 clicks / 28 days**.
 
 ---
 
@@ -61,125 +70,148 @@ This is almost certainly a title/meta + intent-match issue.
 
 | Page | Clicks (prev → now) | Impressions (prev → now) | Note |
 |---|---:|---:|---|
-| /blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing | 4 → 9 | 1,378 → 16,534 | major impression growth; CTR now the bottleneck |
-| /blog/vercel-vs-railway-vs-render-ai-deployment | 2 → 12 | 2,018 → 23,395 | huge visibility gain; snippet underperforming |
-| /blog/e2b-vs-modal-vs-flyio-sandbox-comparison | 44 → 9 | 3,511 → 3,808 | clicks down sharply; monitor ranking + intent drift |
-| /blog/linear-vs-height-vs-plane-project-management | (not top 50) → 28 | (not top 50) → 2,172 | new high-performing cluster |
-| /blog/postman-vs-insomnia-vs-bruno-api-testing | (not top 50) → 32 | (not top 50) → 3,644 | strong performer; expand variants |
+| /blog/postman-vs-insomnia-vs-bruno-api-testing | 1 → 47 | 106 → 4,625 | breakout winner; expand variants |
+| /blog/linear-vs-height-vs-plane-project-management | 0 → 35 | 59 → 2,755 | new high-performing cluster |
+| /blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison | 0 → 9 | 3,683 → 34,302 | massive visibility; CTR now the bottleneck |
+| /blog/vercel-vs-railway-vs-render-ai-deployment | 3 → 15 | 4,709 → 26,714 | huge visibility gain; snippet underperforming |
+| /blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing | 4 → 13 | 3,198 → 18,794 | major impression growth; CTR now the bottleneck |
+| /blog/best-ecommerce-platform-comparison-2026 | 0 → 0 | 472 → 29,719 | top-5 average position; snippet not converting |
+| /blog/hubspot-activecampaign-ai-agents-comparison | 0 → 0 | 340 → 3,537 | demand is rising; needs title/meta + above-fold table |
+| /blog/e2b-vs-modal-vs-flyio-sandbox-comparison | 39 → 10 | 3,706 → 4,258 | clicks down sharply; monitor ranking + intent drift |
 
 ---
 
 ## Updated keyword clusters (prioritized)
 
-### Cluster A (P0): LLM model comparisons (Enterprise: Claude vs GPT-4o vs Gemini)
-**Why P0:** *largest impressions on the site* with average position ~6 and near-zero CTR.
+### Cluster A (P0): Ecommerce platform comparisons (2026)
+**Why P0:** one page is already ranking **avg position ~4.9** with **~30k impressions** and **0 clicks**.
 
-**Observed demand patterns (Search Console):**
-- Many “best model for X” use-case modifiers (e.g. *HTML extraction*, *PDF to markdown*, *legal translation*).
-- Broad “best AI / best LLM” in multiple languages → suggests the page is being used by Google as a generic candidate, which can be good for impressions but bad for CTR if the snippet doesn’t match.
+**Page mapping (primary):**
+- `/blog/best-ecommerce-platform-comparison-2026`
 
-**Page mapping:**
-- Primary: `/blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison`
+**Observed query patterns to capture (Search Console):**
+- `woocommerce vs shopify vs bigcommerce` (and “vs wix / squarespace” variants)
+- `best dropshipping platforms 2026 comparison shopify vs woocommerce vs bigcommerce vs wix`
+- `best bigcommerce alternatives 2026`
 
 **Recommendations (next 30 days):**
-- Title/meta: make the promise explicit and click-worthy: **“Claude vs GPT-4o vs Gemini (2026): price, context, latency, benchmarks”**.
-- Add a “Use-cases” jump table near the top (HTML extraction, long-doc parsing, coding, RAG), so the snippet better matches the long-tail.
-- Add an FAQ section with exact-match questions ("best model for html data extraction", "best llm for pdf to markdown").
+- Rewrite title/meta to be *decision-first* and include the dominant entities:
+  - Suggested: **“Shopify vs WooCommerce vs BigCommerce (2026): pricing, SEO, features (best ecommerce platform)”**
+- Add an above-the-fold comparison table that literally repeats the head terms: *Shopify*, *WooCommerce*, *BigCommerce*, *Wix*, *Squarespace*.
+- Add a “Pick the winner by use case” block (dropshipping, B2B, clothing, food, bookstore, enterprise).
+
+**Supporting pages to consider (if impressions persist):**
+- `Shopify vs WooCommerce vs BigCommerce (2026)` (more focused than the mega-roundup)
+- `Best BigCommerce alternatives (2026)`
+- `Best dropshipping platforms (2026): Shopify vs WooCommerce vs Wix`
 
 ---
 
-### Cluster B (P0): Deployment platforms for apps/AI workloads (Vercel vs Railway vs Render)
-**Why P0:** very high impressions; page already ranks in top 10; CTR still extremely low.
+### Cluster B (P0): LLM model comparisons (Enterprise: Claude vs GPT-4o vs Gemini)
+**Why P0:** the page is one of the top impression earners on the site with avg position ~6.
+
+**Page mapping (primary):**
+- `/blog/claude-vs-gpt4o-vs-gemini-enterprise-comparison`
 
 **Observed modifiers to capture:**
-- **free tier limits / pricing**
-- **GPU support**
-- “Railway vs Render (2026)” variants
+- `best coding llm claude vs gpt-4o vs gemini`
+- `best ai model for data scraping claude vs gpt-4o vs gemini`
 
-**Page mapping:**
-- Primary: `/blog/vercel-vs-railway-vs-render-ai-deployment`
+**Important nuance:** this page is also appearing for extremely broad multilingual “best AI” queries. That inflates impressions but drags CTR.
 
 **Recommendations:**
-- Add a visible **Pricing / Free tier (2026)** table above the fold.
-- Add FAQ targeting: “Railway free tier limits 2026”, “Does Railway support GPUs?”, “Railway vs Render pricing 2026”.
-- Consider 1 supporting page if this query class continues to grow:
-  - `Railway free tier limits (2026): what you get + when you pay`
+- Tighten the promise in the title/meta to match *enterprise comparison intent* (and reduce “generic best AI” mismatch):
+  - Suggested: **“Claude vs GPT-4o vs Gemini (Enterprise) (2026): price, context, latency, benchmarks”**
+- Add a “Use cases” jump table near the top (coding, long-doc parsing, scraping/extraction, RAG).
+- Add FAQ sections with exact match H3s for the modifiers above.
 
 ---
 
-### Cluster C (P0): SaaS billing / Merchant of Record (Stripe vs Paddle vs Lemon Squeezy)
-**Why P0:** very high impressions; recurring “fees/pricing” intent; current snippet under-matches.
+### Cluster C (P0): Deployment platforms for apps/AI workloads (Vercel vs Railway vs Render)
+**Why P0:** huge impressions, avg position ~6.6, CTR ~0.06%.
 
-**Observed modifiers to capture:**
-- “Stripe Tax vs Paddle”
-- “Lemon Squeezy pricing 5% + $0.50”
-
-**Page mapping:**
-- Primary: `/blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing`
+**Page mapping (primary):**
+- `/blog/vercel-vs-railway-vs-render-ai-deployment`
 
 **Recommendations:**
-- Add a fee-breakdown table that explicitly includes **“5% + $0.50”** wording.
-- Add a dedicated on-page section “Stripe Tax vs Paddle: what’s different?”
-- Consider 1 supporting page:
-  - `Lemon Squeezy pricing explained: 5% + $0.50 (examples + calculator)`
+- Add a visible **Pricing / Free tier limits (2026)** table above the fold.
+- Add FAQ targeting: “Railway free tier limits 2026”, “Railway vs Render pricing 2026”, “Does Railway support GPUs?”
+
+**Supporting page (still recommended):**
+- `Railway free tier limits (2026): what you get + when you pay`
 
 ---
 
-### Cluster D (P0): BaaS decisions (Convex vs Supabase vs Firebase)
-**Why P0:** strong head-term visibility; the head query is getting impressions but not clicks.
+### Cluster D (P0): SaaS billing / Merchant of Record (Stripe vs Paddle vs Lemon Squeezy)
+**Why P0:** very high impressions; strong “fees/pricing” intent; CTR is extremely low.
 
-**Evidence:**
-- Query → page mapping: `convex vs supabase` → `/blog/supabase-vs-firebase-vs-convex-ai-backend`
-- For `convex vs supabase`: **267 impressions / 0 clicks / avg position 5.01**
+**Page mapping (primary):**
+- `/blog/stripe-vs-paddle-vs-lemon-squeezy-saas-billing`
 
 **Recommendations:**
-- Adjust title to lead with the dominant head-to-head: **“Convex vs Supabase (vs Firebase) (2026)”**.
-- Add an above-the-fold “Who should pick Convex vs Supabase?” summary.
-- Add FAQ: “Is Convex better than Supabase?”, “Convex pricing vs Firebase”, “Supabase to Convex migration”.
+- Add a fee-breakdown table with explicit wording people repeat: **“5% + $0.50”**.
+- Add a dedicated section: “Stripe Tax vs Paddle: what’s different?”
+
+**Supporting page (still recommended):**
+- `Lemon Squeezy pricing explained: 5% + $0.50 (examples + calculator)`
 
 ---
 
-### Cluster E (P1): API testing tools (Postman vs Insomnia vs Bruno)
-**Why P1:** already the top click driver; expand to capture variant head-to-heads.
+### Cluster E (P0): Marketing automation AI features (HubSpot vs ActiveCampaign)
+**Why P0:** sustained visibility with **0 clicks**, dominated by “AI features comparison (2026)” queries.
 
-**Page mapping:**
-- Primary: `/blog/postman-vs-insomnia-vs-bruno-api-testing`
+**Page mapping (primary):**
+- `/blog/hubspot-activecampaign-ai-agents-comparison`
+
+**Observed queries to mirror in headings/FAQ:**
+- `activecampaign vs hubspot ai features comparison 2025 or 2026` (271 impressions)
+- `activecampaign vs hubspot cross-channel marketing automation comparison 2025 or 2026`
+- `activecampaign vs hubspot pricing comparison 2025 or 2026`
 
 **Recommendations:**
-- Add explicit H2s for “Bruno vs Postman” and “Insomnia vs Postman”.
-- Add a short “Which should you use in 2026?” decision tree.
+- Title/meta must explicitly include **AI features** + **marketing automation** + **2026**.
+- Add an above-the-fold table with columns: AI features, segmentation/personalization, workflows, deliverability, reporting, pricing.
+- Add FAQ blocks for pricing + deliverability + personalization queries.
 
 ---
 
-### Cluster F (P1): Project management tools (Linear vs Plane vs Height)
-**Why P1:** strong CTR + meaningful clicks; easy adjacent expansion.
+### Cluster F (P1): API testing tools (Postman vs Insomnia vs Bruno)
+**Why P1:** currently the top click driver; expand to capture single head-to-head intent.
 
-**Page mapping:**
-- Primary: `/blog/linear-vs-height-vs-plane-project-management`
+**Page mapping (primary):**
+- `/blog/postman-vs-insomnia-vs-bruno-api-testing`
 
-**Next keywords/pages to add (based on observed demand + adjacent SERPs):**
-- Linear vs Height
-- Linear vs Plane
-- Linear vs Jira vs Asana (already getting impressions)
-- Linear vs Asana (already getting impressions)
+**Next pages to add (based on observed demand):**
+- `Insomnia vs Bruno (2026)`
+- `Postman vs Bruno (2026)`
 
 ---
 
-### Cluster G (P1): Marketing automation AI features (HubSpot vs ActiveCampaign)
-**Why P1:** substantial impressions with **0 clicks** and average position ~8.6.
+### Cluster G (P1): Project management tools (Linear vs Plane vs Height)
+**Why P1:** strong click volume; multiple exact-match queries are already converting.
 
-**Page mapping:**
-- Primary: `/blog/hubspot-activecampaign-ai-agents-comparison`
+**Page mapping (primary):**
+- `/blog/linear-vs-height-vs-plane-project-management`
+
+**Next pages to add:**
+- `Linear vs Plane (2026)`
+- `Linear vs Height (2026)`
+
+---
+
+### Cluster H (P1): Human-in-the-loop approval workflows (AI)
+**Why P1:** strong impression volume with 0 clicks; likely salvageable with better snippet + clearer “what you’ll learn” framing.
+
+**Page mapping (primary):**
+- `/blog/human-in-the-loop-approval-workflows`
 
 **Recommendations:**
-- Title/meta must explicitly match the dominant query framing:
-  - include “**AI features**”, “**marketing automation**”, and “**2026**”.
-- Add an above-the-fold comparison table that includes the words users search (AI features, personalization, segmentation, deliverability, workflows).
+- Retitle toward “approval workflows for AI agents” and add an above-the-fold pattern library.
 
 ---
 
-### Cluster H (P2): Vector database comparisons
-**Why P2:** high impressions, moderate clicks; CTR improvement still useful but secondary to the top 3 clusters.
+### Cluster I (P2): Vector database comparisons
+**Why P2:** high impressions; CTR improvement still useful but secondary to the P0 clusters.
 
 **Page mapping:**
 - `/blog/pinecone-vs-weaviate-vs-qdrant-vs-pgvector`
@@ -190,7 +222,7 @@ This is almost certainly a title/meta + intent-match issue.
 ## Deprioritize / exclude (this month)
 
 1. **One-word/no-intent queries**: `english`, `yes`, and other noise.
-2. **Prompt-like “evaluate the company…” queries**: treat as non-primary. Don’t build dedicated pages for these.
+2. **Prompt-like “evaluate the company…” queries**: treat as non-primary.
 3. **Quoted code/token queries** (e.g. library import strings): these create impressions but rarely drive qualified traffic. Avoid optimizing titles/meta toward these; keep content readable and well-structured.
 
 ---
@@ -198,22 +230,26 @@ This is almost certainly a title/meta + intent-match issue.
 ## 30-day action plan (SEO execution)
 
 1. **CTR sprint (highest ROI):** update titles/meta + add above-the-fold summary blocks for:
+   - Best ecommerce platform comparison (2026)
    - Claude vs GPT-4o vs Gemini
    - Vercel vs Railway vs Render
    - Stripe vs Paddle vs Lemon Squeezy
-   - Convex vs Supabase
-   - HubSpot vs ActiveCampaign
+   - HubSpot vs ActiveCampaign (AI features)
+   - Human-in-the-loop approval workflows
 
-2. **Publish 2 supporting pages** to capture clear modifiers already visible in Search Console:
+2. **Publish 2–3 supporting pages** (targeting the clearest modifiers already visible in Search Console):
+   - Shopify vs WooCommerce vs BigCommerce (2026)
    - Railway free tier limits (2026)
    - Lemon Squeezy pricing (5% + $0.50) explained
 
-3. **Expand winning clusters:** publish 1–2 additional “Linear vs X” pages (low effort, high intent-match).
+3. **Expand winning clusters:** publish 2 lightweight head-to-heads:
+   - Insomnia vs Bruno
+   - Linear vs Plane (or Linear vs Height)
 
 4. **Unblock Keyword Planner (platform-level):** fix the Google Ads customer ID configuration so we can enrich these clusters with net-new keywords that aren’t yet appearing in Search Console.
 
 ---
 
-## Appendix: previous review snapshot (2026-03-09)
+## Appendix: previous review snapshot (2026-03-19)
 
 The previous review content has been superseded by this update; see git history for the full prior snapshot.
